@@ -1,0 +1,64 @@
+---
+title: "A Gentle Introduction to Julia for Data Analysis"
+author: Tyler J. Brough
+date: 2025-04-23
+title-slide-attributes:
+  data-background-color: "#486790"
+format: 
+  revealjs:
+    theme: tjb.scss      # Modified simple theme.
+    slide-number: c/t    # Numbered slides current/total.
+    self-contained: true # Render to a single HTML file.
+execute:
+  eval: false
+  echo: true
+---
+
+# A Gentle Introduction to Julia
+
+## Agenda
+
+1. Computational Exercises for Simple Stopping Rules
+   - The chicken nuggets problem
+   - Guess my number
+2. An Introduction to Prezo.jl
+   - Creating a new module
+   - REPL processes
+   - Multiple file layout
+   - Loading your module for testing
+   - Julia's type system and type hierarchies
+   - Multiple dispatch
+  
+
+## Installing Julia
+
+<br>
+<br>
+
+Go to: <https://julialang.org/>
+
+
+## The Chicken Nuggets Problem 
+
+This problem is known as the _chicken nuggets_ problem (or sometimes the _coins_ problem). It goes like this: you walk into Chick Fil-A with an unlimited budget (and appetite!). You can purchase nuggets in boxes of 6, 9, and 20 pieces.
+
+Write a program to tell you the ___highest___ number of nuggets that you ___cannot___ purchase. Re-read that just in case it went past you the first time. The highest number that you cannot get. For example, you can get 15 nuggets by purchasing a box of 6 and a box of 9 nuggets. You can get 18 by purchasing 2 boxes of 9 or 3 boxes of 6. But with no combination of 6, 9, or 20 can you purchase 17 nuggets. What is the highest number that you cannot get?
+
+This simple game will give you experience assembling different bits of `Julia` programming to find the solution. The most direct approach and simplest approach will also employ a very simple numerical method called _brute force_ search.
+
+
+## Guess My Number
+
+In the book [Python Programming for the Absolute Beginner, 3rd Edition](https://www.amazon.com/gp/product/1435455002/ref=dbs_a_def_rwt_bibl_vppi_i2) the author teaches `Python` through some simple games programming. One of the first games that he shows how to write is the so-called ___Guess My Number___ game, which is the children's game of guessing someone's secrete number (a number between 1 and 100).
+
+Let's see what this looks like in Julia!
+
+
+# Let's Take a Look at Prezo.jl
+
+## Summary 
+
+<br>
+<br>
+
+Thank you!
